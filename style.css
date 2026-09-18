@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BEB0A7;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 8vmin;
+    color: #191913;
+    margin-bottom: 10px;
+}
+
+#msg {
+    font-size: 3.5vmin;
+    font-weight: bold;
+    color: #191913;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    height: 60vmin;
+    width: 60vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15%;
+    border: none;
+    font-size: 7vmin;
+    font-weight: bold;
+    color: #3A4E48;
+    background-color: #ffffc7;
+    box-shadow: 0 0 10px rgba(58, 78, 72, 0.5);
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #f7f7b2;
+}
+
+#restart-button {
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+#new-btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.msg-container {
+    margin-bottom: 20px;
+}
+
+#msg {
+    color: #191913;
+    font-size: 5vmin;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+#restart-button:hover, #new-btn:hover {
+    background-color: #333328;
+}
+
