@@ -5,7 +5,7 @@ The game supports two-player turn-based gameplay with automatic winner and draw 
 
 🌐 Live Demo
 
-Play the game here:
+Play the game here: https://hukamsingh-rathore.github.io/tic-tac-toe-game/
 
 👉 Live Demo
 
